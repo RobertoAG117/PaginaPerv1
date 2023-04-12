@@ -249,6 +249,7 @@ input{
     padding: 10px;
     border-radius: 10px;
 }
+/* para agregar transparaencias en las páginas se ocupa https://css.glass/ */
 
 .whats{
     position: fixed;
