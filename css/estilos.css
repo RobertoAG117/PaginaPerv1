@@ -344,8 +344,33 @@ textarea{
     background-color: #727272;
     border-radius: 30px;
 }
+.logomen{
+    display: none;
+}
 /* hacemos una barra de nevegación */
 
 
-
-
+/* ejemplo del responsive */
+@media (max-width:900px){
+    p{
+        display: none;
+    }
+    ul{
+        display: none;
+        width: 200px;
+        border: solid 2px blue;
+        color: rgb(49, 18, 189);
+        position: absolute;
+        background-color: #fff;
+    }
+    input:checked 
+    ~ul{
+        display: block;
+    }
+    #menu{
+        display: none;
+    }
+    .logomen{
+        display: block;
+    }
+}
