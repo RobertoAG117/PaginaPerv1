@@ -327,4 +327,25 @@ textarea{
 }
 /* para darle tonos al texto desde un generador es https://www.cssgradienttext.com/ */
 
+/* pseudo elementos que no existen */
+::-webkit-scrollbar{
+    background-color:  white ,#fff,aquamarine, rgb(228, 231, 196);
+    width: 20px;
+    
+}
+::-webkit-scrollbar-track{
+    border-radius: 30px;
+    background-color: rgb(106, 7, 235);
+    box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.829);
+    
+    
+}
+::-webkit-scrollbar-thumb{
+    background-color: #727272;
+    border-radius: 30px;
+}
+/* hacemos una barra de nevegación */
+
+
+
 
