@@ -436,16 +436,18 @@ textarea{
 
 .card img{
     width: 100%;
-    height: 20vh;
+    height: 25vh;
     border-top-right-radius: 30px;
     border-top-left-radius: 30px;
 
 
 }
 .card a{
-    color: aqua;
+    color: rgb(255, 255, 255);
     text-decoration: none;
     font-size: 2em;
+    background-color: #3546aacc;
+    border-radius: 30px
 }
 .card a:hover{
     background-color: #fff;
